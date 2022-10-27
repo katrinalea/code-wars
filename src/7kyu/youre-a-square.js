@@ -1,7 +1,7 @@
 "use strict";
 // https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript
 function square(number) {
-    const list = Array.from({ length: 10000 }, (item, index) => index);
+    const list = Array.from({ length: 10000000000 }, (item, index) => index);
     const squareNumbers = [];
     for (const i of list) {
         squareNumbers.push(i * i);
@@ -14,4 +14,3 @@ function square(number) {
     }
 }
 console.log(square(4), "expected = true");
-//# sourceMappingURL=youre-a-square.js.map
