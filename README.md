@@ -1,9 +1,9 @@
-### Code war Kata record
+### CODE WAR KATA RECORD
 These are katas from codewars, solved using typescript.
 
 
 ## KATAS
-[5 kyu katas](src/5kyu/)/
+[5 kyu katas](src/5kyu/)
 
 [6 kyu katas](src/6kyu/)
 
