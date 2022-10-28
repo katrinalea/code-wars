@@ -14,3 +14,4 @@ function square(number: number): boolean {
 }
 
 console.log(square(4), "expected = true");
+export default square;
