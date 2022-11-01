@@ -27,3 +27,4 @@ function reverseString(str) {
 }
 //test
 console.log(reverseString("hello"), "olleh");
+export default printCapitalsQuiz;

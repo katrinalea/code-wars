@@ -1,4 +1,4 @@
-import printCapitalsQuiz from "./capitals";
+import printCapitalsQuiz from "./objects";
 const capitals = {
   Afghanistan: "Kabul",
 };
