@@ -18,4 +18,5 @@ function containsValue(
   }
   //export default containsValue;
 }
-console.log(containsValue)
+console.log(containsValue);
+export default containsValue;
