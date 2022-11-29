@@ -11,25 +11,21 @@
 
 //https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript
 
-
-//count the items of the arraY  
+//count the items of the arraY
 // find the odd value
 
-
-function findOdd (numArray: number []): number {
-    const numberObject = {}
-    for ( const number of numArray) {
-        if (numberObject[number] === undefined){
-            numberObject[number] += 1 
-        }
-        else {
-          numberObject[number] ++
-        }
+function findOdd(numArray: number[]): number {
+  const numberObject = {};
+  for (const number of numArray) {
+    if (numberObject[number] === undefined) {
+      numberObject[number] += 1;
+    } else {
+      numberObject[number]++;
     }
-    for (const value of Object.values(numberObject)){
-        if (value %2 !== 0){
-            return // want to return the key of the odd value
-        }
+  }
+  for (const value of Object.values(numberObject)) {
+    if (value % 2 !== 0) {
+      return; // want to return the key of the odd value
     }
-
+  }
 }
