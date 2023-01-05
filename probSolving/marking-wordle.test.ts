@@ -9,13 +9,10 @@ test("first tests", () => {
 });
 
 test("first tests", () => {
-    expect(markWordleGuess("HELLO", "SELLH")).toEqual([
+  expect(markWordleGuess("HELLO", "SELLH")).toEqual([
     "Letter one correct, wrong position",
-      "Letter two correct",
-      "Letter three correct",
-      "Letter four correct",
-    ]);
-  });
-  
-
-
+    "Letter two correct",
+    "Letter three correct",
+    "Letter four correct",
+  ]);
+});

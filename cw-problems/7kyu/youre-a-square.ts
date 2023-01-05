@@ -2,7 +2,7 @@
 
 function square(number: number): boolean {
   const list = Array.from({ length: 10000 }, (item, index) => index);
-  const squareNumbers:number[] = [];
+  const squareNumbers: number[] = [];
   for (const i of list) {
     squareNumbers.push(i * i);
   }
