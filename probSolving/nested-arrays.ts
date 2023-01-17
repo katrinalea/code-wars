@@ -1,4 +1,3 @@
-
 // given an array containing multiple nested array, create a function that will total the numbers within all the arrays
 // example [10, [2, 3, 6], [1, [100, [3, 4], 5]]] should equal 34
 
@@ -29,6 +28,6 @@ function sumNested(nestedArray: numNested[]): number {
   return count;
 }
 
-console.log(sumNested([10, [2, 3, 6], [1, [100, [3, 4], 5]]]))
-console.log(sumNested([1,2,[4,5,[6,6],8],[10,11]]))
-console.log(sumNested([]))
+console.log(sumNested([10, [2, 3, 6], [1, [100, [3, 4], 5]]]));
+console.log(sumNested([1, 2, [4, 5, [6, 6], 8], [10, 11]]));
+console.log(sumNested([]));
